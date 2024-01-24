@@ -46,5 +46,28 @@ public class HomePage {
 		driver.navigate().back();
 	}
 	
+	@FindBy(xpath =   "//a[.='Meet the Founder']")
+	WebElement hmmlink;
+	
+	public void meetfounder() throws InterruptedException
+	{ 
+		Thread.sleep(2000);
+		hmmlink.click();
+		driver.navigate().back();
+	}
+	
+	@FindBy(xpath = "//a[.='Invest Bamboo']")
+	WebElement hmilink;
+	
+	public void InvestBamboo() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		hmilink.click();
+		driver.navigate().back();
+	
+	
+		
+	}
+	
 
 }

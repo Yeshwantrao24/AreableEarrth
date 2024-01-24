@@ -16,5 +16,9 @@ public class TC_HOMEPAGE_test extends BaseClass
 	   System.out.println("successfully navigated to menu bar");
 	   hp.cultivate();
 	   System.out.println("successfully navigated to cultivate page");
+	   hp.meetfounder();
+	   System.out.println("successfully navigated to founder page");
+	   hp.InvestBamboo();
+	   System.out.println("successfully navigated to invest bamboo");
    }
 }
