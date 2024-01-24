@@ -88,7 +88,44 @@ public class HomePage {
 		Thread.sleep(2000);
 		hmilink.click();
 		driver.navigate().back();
+		
+	}
+		@FindBy(xpath = "(//a[.='About Bamboo'])[1]")
+		WebElement hmalink;
+		
+		public void   aboutbamboo() throws InterruptedException
+		{
+			Thread.sleep(2000);
+			hmilink.click();
+			driver.navigate().back();
 	
 	
+}
+		@FindBy(xpath = "(//a[.='Promote Us'])[1]")
+		WebElement hmplink;
+		
+		public void   PromoteUs() throws InterruptedException
+		{
+			Thread.sleep(2000);
+			hmilink.click();
+			driver.navigate().back();
+}
+		@FindBy(xpath = "(//a[.='Blog'])[1]")
+		WebElement hmblink;
+		
+		public void  Blog() throws InterruptedException
+		{
+			Thread.sleep(2000);
+			hmilink.click();
+			driver.navigate().back();
+}
+		@FindBy(xpath = "(//a[.='Contact Us'])[1]")
+		WebElement hmcontectlink;
+		
+		public void  ContactUs() throws InterruptedException
+		{
+			Thread.sleep(2000);
+			hmilink.click();
+			driver.navigate().back();
 }
 }

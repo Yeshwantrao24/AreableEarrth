@@ -24,6 +24,15 @@ public class TC_HOMEPAGE_test extends BaseClass
 	   System.out.println("successfully navigated to FAQ");
 	   hp.ourVision();
 	   System.out.println("successfully navigated to our vision");
+	   hp.aboutbamboo();
+	   System.out.println("successfully navigated to aboutbamboo");
+	   hp.PromoteUs();
+	   System.out.println("successfully navigated to PromoteUs");
+	   hp.Blog();
+	   System.out.println("successfully navigated to Blog");
+	   hp.ContactUs();
+	   System.out.println("successfully navigated to ContactUs");
+	   
    }
    }
    
