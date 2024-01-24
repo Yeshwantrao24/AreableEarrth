@@ -20,5 +20,11 @@ public class TC_HOMEPAGE_test extends BaseClass
 	   System.out.println("successfully navigated to founder page");
 	   hp.InvestBamboo();
 	   System.out.println("successfully navigated to invest bamboo");
+	   hp.FAQ();
+	   System.out.println("successfully navigated to FAQ");
+	   hp.ourVision();
+	   System.out.println("successfully navigated to our vision");
    }
-}
+   }
+   
+

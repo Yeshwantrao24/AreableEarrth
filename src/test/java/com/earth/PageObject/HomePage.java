@@ -68,6 +68,27 @@ public class HomePage {
 	
 		
 	}
+	@FindBy(xpath = "(//a[.='FAQ'])[1]")
+	WebElement hmflink;
 	
-
+	public void FAQ() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		hmilink.click();
+		driver.navigate().back();
+	
+	
+	
+	}
+	@FindBy(xpath = "//a[.='Our Vision']")
+	WebElement hmolink;
+	
+	public void   ourVision() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		hmilink.click();
+		driver.navigate().back();
+	
+	
+}
 }
