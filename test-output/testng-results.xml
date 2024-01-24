@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T11:43:47 IST" name="Default suite" finished-at="2024-01-24T11:43:51 IST" duration-ms="4191">
+  <suite started-at="2024-01-24T12:14:49 IST" name="Default suite" finished-at="2024-01-24T12:14:55 IST" duration-ms="5717">
     <groups>
     </groups>
-    <test started-at="2024-01-24T11:43:47 IST" name="Default test" finished-at="2024-01-24T11:43:51 IST" duration-ms="4191">
+    <test started-at="2024-01-24T12:14:49 IST" name="Default test" finished-at="2024-01-24T12:14:55 IST" duration-ms="5717">
       <class name="com.earth.TestScripts.TC_HOMEPAGE_test">
-        <test-method is-config="true" signature="SetBrowser()[pri:0, instance:com.earth.TestScripts.TC_HOMEPAGE_test@6572421]" started-at="2024-01-24T11:43:47 IST" name="SetBrowser" finished-at="2024-01-24T11:43:51 IST" duration-ms="3885" status="PASS">
+        <test-method is-config="true" signature="SetBrowser()[pri:0, instance:com.earth.TestScripts.TC_HOMEPAGE_test@6572421]" started-at="2024-01-24T12:14:49 IST" name="SetBrowser" finished-at="2024-01-24T12:14:54 IST" duration-ms="5323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetBrowser -->
-        <test-method signature="verifyHomePage()[pri:0, instance:com.earth.TestScripts.TC_HOMEPAGE_test@6572421]" started-at="2024-01-24T11:43:51 IST" name="verifyHomePage" finished-at="2024-01-24T11:43:51 IST" duration-ms="98" status="PASS">
+        <test-method signature="verifyHomePage()[pri:0, instance:com.earth.TestScripts.TC_HOMEPAGE_test@6572421]" started-at="2024-01-24T12:14:54 IST" name="verifyHomePage" finished-at="2024-01-24T12:14:55 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.earth.TestScripts.TC_HOMEPAGE_test@6572421]" started-at="2024-01-24T11:43:51 IST" name="tearDown" finished-at="2024-01-24T11:43:51 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.earth.TestScripts.TC_HOMEPAGE_test@6572421]" started-at="2024-01-24T12:14:55 IST" name="tearDown" finished-at="2024-01-24T12:14:55 IST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

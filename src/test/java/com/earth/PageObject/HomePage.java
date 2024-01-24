@@ -22,5 +22,14 @@ public class HomePage {
 	{
 		hmpage.click();
 	}
+	
+	@FindBy(linkText ="Home")
+	WebElement hmlink;
+	
+	public void menu()
+	{
+		hmlink.click();
+	}
+	
 
 }

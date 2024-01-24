@@ -12,5 +12,7 @@ public class TC_HOMEPAGE_test extends BaseClass
    {
 	   HomePage hp=new HomePage(driver);
 	   hp.Home();
+	   hp.menu();
+	   System.out.println("successfully navigated to menu bar");
    }
 }
