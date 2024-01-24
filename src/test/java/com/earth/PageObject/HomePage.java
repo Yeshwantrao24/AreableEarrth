@@ -37,95 +37,121 @@ public class HomePage {
 	}
 	
 	@FindBy(linkText = "Cultivate Bamboo")
-	WebElement  hmclink;
+	WebElement  hmcultilink;
 	
 	public void cultivate() throws InterruptedException
 	{
 		Thread.sleep(2000);
-		hmclink.click();
+		hmcultilink.click();
 		driver.navigate().back();
 	}
 	
 	@FindBy(xpath =   "//a[.='Meet the Founder']")
-	WebElement hmmlink;
+	WebElement meetfounderlink;
 	
 	public void meetfounder() throws InterruptedException
 	{ 
 		Thread.sleep(2000);
-		hmmlink.click();
+		meetfounderlink.click();
 		driver.navigate().back();
 	}
 	
 	@FindBy(xpath = "//a[.='Invest Bamboo']")
-	WebElement hmilink;
+	WebElement investbamboo;
 	
 	public void InvestBamboo() throws InterruptedException
 	{
 		Thread.sleep(2000);
-		hmilink.click();
+		investbamboo.click();
 		driver.navigate().back();
 	
 	
 		
 	}
 	@FindBy(xpath = "(//a[.='FAQ'])[1]")
-	WebElement hmflink;
+	WebElement faqlink;
 	
 	public void FAQ() throws InterruptedException
 	{
 		Thread.sleep(2000);
-		hmilink.click();
+		faqlink.click();
 		driver.navigate().back();
 	
 	
 	
 	}
 	@FindBy(xpath = "//a[.='Our Vision']")
-	WebElement hmolink;
+	WebElement vissionlink;
 	
 	public void   ourVision() throws InterruptedException
 	{
 		Thread.sleep(2000);
-		hmilink.click();
+		vissionlink.click();
 		driver.navigate().back();
 		
 	}
 		@FindBy(xpath = "(//a[.='About Bamboo'])[1]")
-		WebElement hmalink;
+		WebElement aboutlink;
 		
 		public void   aboutbamboo() throws InterruptedException
 		{
 			Thread.sleep(2000);
-			hmilink.click();
+			aboutlink.click();
 			driver.navigate().back();
 	
 	
 }
 		@FindBy(xpath = "(//a[.='Promote Us'])[1]")
-		WebElement hmplink;
+		WebElement promotlink;
 		
 		public void   PromoteUs() throws InterruptedException
 		{
 			Thread.sleep(2000);
-			hmilink.click();
+			promotlink.click();
 			driver.navigate().back();
 }
 		@FindBy(xpath = "(//a[.='Blog'])[1]")
-		WebElement hmblink;
+		WebElement bloglink;
 		
 		public void  Blog() throws InterruptedException
 		{
 			Thread.sleep(2000);
-			hmilink.click();
+			bloglink.click();
 			driver.navigate().back();
 }
 		@FindBy(xpath = "(//a[.='Contact Us'])[1]")
-		WebElement hmcontectlink;
+		WebElement contectlink;
+		
+		@FindBy(id="name1")
+		WebElement namelink;
+		@FindBy(id="email")
+		WebElement emlink;
+		@FindBy(xpath = "//input[@placeholder='Enter number']")
+		WebElement  phonelink;
+		@FindBy(xpath = "//input[@id='subject']")
+		WebElement  sublink;
+		@FindBy(xpath = "//textarea[@placeholder='Your Message: ']")
+		WebElement  messlink;
+		
+		@FindBy(xpath = "//button[.='Send Message']")
+		WebElement buttonlink;
+		
+		
 		
 		public void  ContactUs() throws InterruptedException
 		{
+			Thread.sleep(4000);
+			contectlink.click();
+			//driver.navigate().back();
+			
+			namelink.sendKeys("yeshwantrao");
+			emlink.sendKeys("yesh@gmail.com");
+			phonelink.sendKeys("1234567890");
+			sublink.sendKeys("Arebelearth");
+			messlink.sendKeys("I need to purchace bamboo chairs");
 			Thread.sleep(2000);
-			hmilink.click();
-			driver.navigate().back();
+			buttonlink.click();
+			
+			
 }
 }

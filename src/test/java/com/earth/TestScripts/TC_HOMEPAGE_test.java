@@ -32,6 +32,8 @@ public class TC_HOMEPAGE_test extends BaseClass
 	   System.out.println("successfully navigated to Blog");
 	   hp.ContactUs();
 	   System.out.println("successfully navigated to ContactUs");
+	   hp.ContactUs();
+	   System.out.println("contacted sucessfully");
 	   
    }
    }
