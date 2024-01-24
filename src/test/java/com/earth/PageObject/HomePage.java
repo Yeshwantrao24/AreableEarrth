@@ -18,17 +18,32 @@ public class HomePage {
 	@FindBy(xpath="//span[.='☰ ']")
 	WebElement hmpage;
 	
-	public void Home()
+	public void Home() throws InterruptedException
 	{
+		Thread.sleep(2000);
 		hmpage.click();
+		
 	}
 	
 	@FindBy(linkText ="Home")
 	WebElement hmlink;
 	
-	public void menu()
+	
+	public void menu() throws InterruptedException
 	{
+		Thread.sleep(2000);
 		hmlink.click();
+		driver.navigate().back();
+	}
+	
+	@FindBy(linkText = "Cultivate Bamboo")
+	WebElement  hmclink;
+	
+	public void cultivate() throws InterruptedException
+	{
+		Thread.sleep(2000);
+		hmclink.click();
+		driver.navigate().back();
 	}
 	
 

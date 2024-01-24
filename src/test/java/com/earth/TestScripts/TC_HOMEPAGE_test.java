@@ -8,11 +8,13 @@ public class TC_HOMEPAGE_test extends BaseClass
 {
 	
 	@Test
-   public void verifyHomePage()
+   public void verifyHomePage() throws InterruptedException
    {
 	   HomePage hp=new HomePage(driver);
 	   hp.Home();
 	   hp.menu();
 	   System.out.println("successfully navigated to menu bar");
+	   hp.cultivate();
+	   System.out.println("successfully navigated to cultivate page");
    }
 }
